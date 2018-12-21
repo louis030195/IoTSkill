@@ -4,9 +4,11 @@
 
 L'objectif est d'optimiser les temps d'attentes et la durée des trajets tout en réduisant la pollution émise par le traffic.
 
+Pour cela nous mettons un arrêt de bus connecté.
+
 ### 1. Utilisation de plusieurs capteurs, idéalement déjà présent sur la carte
 
-- Capteur de proximité dans les arrêts de bus
+- Caméra dans les arrêts de bus (détection d'objets dans une image)
 
 ### 2. Actuateur
 
