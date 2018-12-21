@@ -1,33 +1,31 @@
 # IoTSkill
 
-<img src="Images/what_is_beacon_phone.png" width="300">
-<img src="Images/app_monuments.png" width="300">
-
 ## Objectif
-L'objectif du projet est de placer des "beacons" sur les monuments d'Aix-en-Provence.
 
-Ces beacons proposeront des informations à propos des monuments.
+L'objectif est d'optimiser les temps d'attentes et la durée des trajets tout en réduisant la pollution émise par le traffic.
 
-Les informations seront récupérées par l'application mobile existante d'Aix-en-Provence.
+### 1. Utilisation de plusieurs capteurs, idéalement déjà présent sur la carte
 
+- Capteur de proximité dans les arrêts de bus
 
-1. Utilisation de plusieurs capteurs, idéalement déjà présent sur la carte
+### 2. Actuateur
 
-Capteur de mouvement pour compter le nombre de visiteurs pour chaque monument.
+- Bip cartes
 
-2. 1 actuateur
+### 3. Une logique business d'exploitation des données
 
-L'actuateur serait un détecteur de mouvement.
+Les clients bip à l'arrêt, dans le bus et à la sortie.
+Cela nous permettra de déterminer le temps d'attente et la durée du trajet.
+Nous promouvoyons un temps d'attente plus faible, avec des horaires plus adaptés aux utilisateurs ce qui permet d'avoir plus d'utilisateurs, moins de traffic, moins de pollution et donc nous pouvons nous engager sur un temps de trajet moyen, ce qui attirera plus d'utilisateurs ... = cercle vertueux.
 
-3. Une logique business d'exploitation des données
+![Cercle vertueux](Images/IoT.png)
 
-Les données du nombre de visiteurs pourraient éventuellement être récupérées par un utilisateur "admin" de l'application ou autres transmissions.
-Ces données pourraient être utiles pour savoir quels sont les monuments les plus appréciés.
+L'objectif ultime en terme de business model serait de proposer une carte qui fonctionne de tel manière : l'utilisateur n'aurait pas à payer si le temps de trajet n'est pas respecté. Il s'agit d'un business model basé sur l'engagement.
 
-4. Une boucle de rétroaction pour activer l'actuateur et avoir un - impact sur l'objet
+### 4. Une logique d'analyse d'impact pour mesurer l'impact
 
-Quand le détecteur de mouvement détecterait un passant, il augmenterai une variable correspondant au nombre de visiteurs et par exemple pourrait faire clignoter une LED.
+- Fluctuation des statistiques avant - après
 
-5. Une logique d'analyse d'impact pour mesurer l'impact
+### Idées
 
-Collecter des données d'utilisation de l'application, notamment l'utilisation de la fonctionnalité beacon.
+- Transport "volant" cela permet de pallier aux besoins ponctuels lors d'évenements (festivals, concerts ...) rapportés par les capteurs qui détectent des changements de comportement.
