@@ -6,6 +6,10 @@ L'objectif est d'optimiser les temps d'attentes et la durée des trajets tout en
 
 Pour cela nous mettons un arrêt de bus connecté.
 
+## Software-defined product
+
+![SDP](Images/SDP.png)
+
 ### 1. Utilisation de plusieurs capteurs, idéalement déjà présent sur la carte
 
 - Caméra dans les arrêts de bus (détection d'objets dans une image)
@@ -31,3 +35,4 @@ L'objectif ultime en terme de business model serait de proposer une carte qui fo
 ### Idées
 
 - Transport "volant" cela permet de pallier aux besoins ponctuels lors d'évenements (festivals, concerts ...) rapportés par les capteurs qui détectent des changements de comportement.
+- Pour les données externe possibilité de parser des médias (automatiquement biensur) pour voir quand un évenement arrive / API qui prévient d'évenement ? (pour les transports volant)
