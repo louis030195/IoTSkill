@@ -6,13 +6,17 @@ L'objectif est d'optimiser les temps d'attentes et la durée des trajets tout en
 
 Pour cela nous mettons un arrêt de bus connecté.
 
+![connected_bus_stop](Images/connected_bus_stop.png)
+
 ## Software-defined product
 
 ![SDP](Images/SDP.png)
 
 ### 1. Utilisation de plusieurs capteurs, idéalement déjà présent sur la carte
 
-- Caméra dans les arrêts de bus (détection d'objets dans une image)
+- Caméra dans les arrêts de bus
+
+![object_detection](Images/object_detection.png)
 
 ### 2. Actuateur
 
@@ -36,3 +40,15 @@ L'objectif ultime en terme de business model serait de proposer une carte qui fo
 
 - Transport "volant" cela permet de pallier aux besoins ponctuels lors d'évenements (festivals, concerts ...) rapportés par les capteurs qui détectent des changements de comportement.
 - Pour les données externe possibilité de parser des médias (automatiquement biensur) pour voir quand un évenement arrive / API qui prévient d'évenement ? (pour les transports volant)
+
+### Proof of concept
+
+Le POC a été réalisé en utilisant du matériel déjà possédé par les acteurs du projet, c'est-à-dire:
+- GOPRO Hero 4
+- Raspberry PI 3
+
+#### Installation
+
+```
+pip install -r requirements.txt
+```

@@ -1,57 +1,115 @@
-*~
-*.sw[mnpcod]
-*.log
-*.lock
-*.tmp
-*.tmp.*
-log.txt
-*.sublime-project
-*.sublime-workspace
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-.idea/
-.vscode/
-.sass-cache/
-.versions/
-coverage/
-collection/
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
 dist/
-node_modules/
-tmp/
-temp/
-core/theme-builder/
-core/test-components/
-core/css/
-angular/css/
-$RECYCLE.BIN/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-.DS_Store
-Thumbs.db
-UserInterfaceState.xcuserstate
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-.package.tmp.json
+# Spyder project settings
+.spyderproject
+.spyproject
 
-src/themes/version.scss
-scripts/e2e/webpackEntryPoints.json
-scripts/build/e2e-generated-tsconfig.json
-*.css.ts
+# Rope project settings
+.ropeproject
 
-stats.json
+# mkdocs documentation
+/site
 
-# demo stuff
-demos/node_modules
-demos/polyfills
-demos/css
-demos/fonts
-demos/src/**/*.js
-demos/src/**/*.map
-demos/src/**/*.ngfactory.ts
-demos/src/**/*.d.ts
-demos/src/**/*.metadata.json
-demos/src/**/*.css.shim.ts
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# stencil
-angular/css/
-core/css/
-core/loader/
-.stencil/
+# Pyre type checker
+.pyre/
